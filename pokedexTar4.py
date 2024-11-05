@@ -20,7 +20,7 @@ def obtener_datos_pokemon(nombre_pokemon):
     return response.json()
 
 
- # Extrae la información clave del Pokémon
+# Extrae la información clave del Pokémon
 def procesar_datos_pokemon(datos):
     return {
         "nombre": datos["name"].capitalize(),
